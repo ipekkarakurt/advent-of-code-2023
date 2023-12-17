@@ -10,7 +10,7 @@ import (
 
 func main() {
 	//Read input file
-	input, _ := os.Open("day-1/input.txt")
+	input, _ := os.Open("day-01/input.txt")
 	defer input.Close()
 	sc := bufio.NewScanner(input)
 	result := 0

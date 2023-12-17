@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	input, _ := os.Open("day-2/input.txt")
+	input, _ := os.Open("day-02/input.txt")
 	defer input.Close()
 	sc := bufio.NewScanner(input)
 	sum := 0
